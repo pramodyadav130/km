@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	
+	<name>Railway Station</name>
+	
+	<Style id="sn_red-pushpin">
+		<IconStyle>
+			<scale>2.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="25" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	
+	<Style id="sn_pur-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	
+	
+	<Style id="RedLine">
+      <LineStyle>		 
+        <color>7d0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+	
+	
+	<Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+	
+	<Style id="transYellowPoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d00ffff</color>
+      </PolyStyle>
+    </Style>
+	
+	  <Style id="transGreenPoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d00ff00</color>
+      </PolyStyle>
+    </Style>
+	
+	
+	
+	<Placemark>
+    <name>Churchgateeee (spot 1)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.8273,18.9353,0</coordinates>
+    </Point>
+    </Placemark>
+	
+	<Placemark>
+	<name>Marine Lines (spot2)</name>	
+	  <styleUrl>#sn_pur-pushpin</styleUrl>
+   	<Point>
+        <coordinates>72.823795,18.945697,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Charni Road (Spot 3)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.818966,18.951338,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Grant Road (Spot 4)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.816202,18.963767,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Mumbai Central (spot 5)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.818797,18.970001,0,</coordinates>
+    </Point>
+    </Placemark>
+	
+	
+	
+	<Placemark>
+    <name>Mahalaxmi(Spot 6)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+    <Point>
+        <coordinates> 72.823925,18.982299,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Lower Parel (Spot 7)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.829936,18.995383,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Elphinstone Road(Spot 8)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.835929,19.007513,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Dadar Western (spot 9)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.843329,19.019536,0</coordinates>
+    </Point>
+    </Placemark>
+	
+	<Placemark>
+    <name>Matunga Road(Spot 10)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.846816,19.028362,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Mahim Junction(Spot 11)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.846955,19.040629,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Bandra (spot 12)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.840671,19.054758,0,</coordinates>
+    </Point>
+    </Placemark>
+	
+	
+	<Placemark>
+    <name>Khar Road(Spot 13)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.840250,19.069819,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Santacruz(Spot 14)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.841784,19.082523,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Vile Parle(Spot 15)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.843989,19.099508,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Andheri (Spot 16)</name>
+	 <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.846589,19.117179,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Jogeshwari(Spot 17)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.848882,19.136523,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Goregaon (Spot 18)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.849550,19.164871,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	<Placemark>
+    <name>Malad (Spot 19)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.848888,19.186829,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Kandivali(Spot 20)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.852019,19.204554,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Borivali (Spot 21)</name>
+	 <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.856775,19.228955,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Dahisar(Spot 22)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.859411,19.249932,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Mira Road(Spot 23)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.856139,19.279789,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Bhayander(Spot 24)</name>
+	 <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.852657,19.311484,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Naigoan(Spot 25)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.846320,19.351334,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Vasai Road(Spot 26)</name>
+	 <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.832159,19.382421,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+    <name>Nala Sopara(Spot 27)</name>
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.818932,19.417720,0,</coordinates>
+    </Point>
+	</Placemark>
+	<Placemark>
+    <name>Virar(Spot 28)</name>
+	 <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>72.812119,19.455164,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	
+	
+	<Placemark>
+    <name>CST Railway station (spot 1)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.835727,18.944200,0</coordinates>
+    </Point>
+    </Placemark>
+
+<Placemark>
+    <name>Byculla Railway station (spot 4)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.832802,18.976598,0</coordinates>
+    </Point>
+    </Placemark>
+
+
+<Placemark>
+    <name>Dadar Central Railway station (spot 8)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.843618,19.018118,0</coordinates>
+    </Point>
+    </Placemark>
+
+
+<Placemark>
+    <name>Kurla Railway station (spot 11)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>  72.879387,19.065278,0</coordinates>
+    </Point>
+    </Placemark>
+
+
+<Placemark>
+    <name>Ghatkopar Railway station (spot 13)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.908271,19.085661,0</coordinates>
+    </Point>
+    </Placemark>
+
+
+	
+	<Placemark>
+    <name>Thane Railway Station (spot 19)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.975913,19.186042,0</coordinates>
+    </Point>
+    </Placemark>
+	
+	
+	<Placemark>
+    <name>Dombivli Railway Station (spot 24)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>  73.086890,19.218392,0</coordinates>
+    </Point>
+    </Placemark>
+	
+	<Placemark>
+    <name>Kalyan Railway Station (spot 26)</name>	
+    <styleUrl>#sn_red-pushpin</styleUrl>
+	<Point>
+        <coordinates>  73.130004,19.235487,0</coordinates>
+    </Point>
+    </Placemark>
+	
+	
+	<Placemark>
+	<name>Masjid Railway Station (spot2)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.838334,18.951992,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Sandhurst Road Railway Station (spot3)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.839971,18.961526,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Chinchpokli Railway Station (spot5)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.832724,18.986921,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Currey Road Railway Station (spot6)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.832991,18.993965,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Parel Railway Station (spot7)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.837570,19.009136,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Matunga Railway station(spot9)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.850191,19.027457,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Sion Railway station(spot 10)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.864027,19.047624,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Vidyavihar Railway station (spot 12)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.897652,19.079531,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Vikhroli Railway station (spot 14)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.928239,19.111853,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Kanjurg Marg Railway station (spot 15)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.928058,19.128169,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Bhandup Railway station (spot 16)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.937784,19.142396,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Nahur Railway station (spot 17)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.946696,19.154666,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Mulund Railway station (spot 18)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.956518,19.171943,0,</coordinates>
+    </Point>
+	</Placemark>
+
+	<Placemark>
+	<name>Kalwa Railway Station (spot 20)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 72.998623,19.197038,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Mumbra Railway Station (spot 21)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 73.023094,19.190306,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Diva Railway Station (spot 22)</name>	
+	<styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>  73.042963,19.189037,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	<Placemark>
+	<name>Kopar Railway Station (spot 23)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates> 73.076987,19.210692,0,</coordinates>
+    </Point>
+	</Placemark>	
+	
+	<Placemark>
+	<name>Thakurli Railway Station (spot 25)</name>	
+    <styleUrl>#sn_pur-pushpin</styleUrl>
+	<Point>
+        <coordinates>  73.098033,19.225944,0,</coordinates>
+    </Point>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+       <altitudeMode>relative</altitudeMode>
+        <coordinates>
+						72.8273,18.9353,0,
+						    72.827066,18.936446,0,
+						    72.827014,18.937253,0,
+						    72.826916,18.937886,0,
+						    72.826866,18.938316,0,
+						    72.826660,18.939761,0,
+						    72.825926,18.942109,0,
+						    72.824983,18.943943,0,
+						    72.824658,18.944471,0,
+						
+						72.823795,18.945697,0,
+							 72.822507,18.947625,0,
+							 72.820866,18.949615,0,
+							 72.819984,18.950434,0,
+					
+						72.818966,18.951338,0,
+							 72.815762,18.953909,0,
+							 72.815503,18.954282,0,
+							 72.815231,18.954711,0,
+							 72.814672,18.956262,0,
+							 72.814553,18.957445,0,
+							 72.814477,18.958781,0,
+							 72.814565,18.959595,0,
+							 72.814871,18.960567,0,
+							 72.815385,18.961712,0,
+							 72.815539,18.962142,0,
+					
+						72.816128,18.963593,0,
+							 72.817587,18.966896,0,
+							 72.818466,18.968847,0,
+							 72.818569,18.969119,0,
+						
+					
+		<!-- Mumbai Central -->
+					
+
+						72.818772,18.969908,0
+							 72.819186,18.972669,0,
+							 72.820204,18.975245,0,
+							 72.820720,18.976704,0,
+							 72.821062,18.977662,0,
+							 72.821481,18.978491,0,
+							 72.822251,18.979600,0,
+						
+						72.823911,18.982326,0,
+							 72.824557,18.983118,0,
+							 72.824911,18.983611,0,
+							 72.825420,18.984428,0,
+							 72.828707,18.992209,0,
+						
+						72.830107,18.995370,0,
+							 72.832883,19.001209,0
+							 72.834948,19.005732,0
+						
+						72.835977,19.007536,0
+							 72.837491,19.010121,0
+							 72.841989,19.017460,0
+						
+				
+
+
+	<!-- Dadar -->			
+				
+
+						72.843317,19.019576,0,
+							72.843674,19.020309,0,
+							72.843966,19.020883,0,
+							72.845049,19.023109,0,
+							72.845513,19.024280,0,
+							72.845989,19.025542,0,
+							72.846640,19.027425,0,
+							
+						72.846816,19.028362,0,
+							72.847360,19.029648,0,
+							72.847542,19.030255,0,
+							72.848003,19.032497,0,
+							72.848120,19.035486,0,
+							72.847821,19.037569,0,
+							72.847301,19.039771,0,
+							
+						72.846955,19.040629,0,
+							72.846446,19.041803,0,
+							72.845632,19.043328,0,
+							72.844993,19.044812,0,
+							72.844218,19.046383,0,
+							72.842034,19.051264,0,
+							
+						
+						
+						
+	<!-- Bandra -->					
+						
+						72.840671,19.054758,0,
+							72.839332,19.059354,0,
+							72.839189,19.063072,0,
+							72.839376,19.063766,0,
+							72.839795,19.066394,0,
+							72.840145,19.068924,0,
+							
+						72.840250,19.069819,0,
+							72.840382,19.072034,0,
+							72.840897,19.075185,0,
+							72.841285,19.078270,0,
+							72.841442,19.079849,0
+							
+						72.841784,19.082523,0,
+							72.842077,19.084799,0,
+							72.842873,19.090580,0,
+							72.843592,19.096469,0,
+							
+						72.843989,19.099508,0,
+							72.844581,19.103589,0,
+							72.844888,19.105969,0,
+							72.845729,19.112927,0,
+							72.846178,19.115595,0,
+						
+<!--  Andheri-->						
+						72.846589,19.117179,0,
+							72.846877,19.119849,0,
+							72.847074,19.121457,0,
+							72.847259,19.123018,0,
+							72.847441,19.125366,0,
+							72.848472,19.132773,0,
+								
+						72.848882,19.136523,0,
+							72.849208,19.138884,0,
+							72.849415,19.140055,0,
+							72.850076,19.145455,0,
+							72.850016,19.152029,0,
+							72.849643,19.160915,0,
+							
+						72.849514,19.164891,0,
+							72.849146,19.170631,0,
+							72.848968,19.173860,0,
+							72.848894,19.175661,0,
+							72.848760,19.177510,0,
+							72.848548,19.181837,0,
+							72.848527,19.183447,0,
+							
+						72.848888,19.186829,0,
+							72.849195,19.189466,0,
+							72.850832,19.198249,0,
+							72.851777,19.202981,0,
+					
+						72.852019,19.204554,0,
+							72.852982,19.209435,0,
+							72.855250,19.220952,0,
+							72.856377,19.226877,0,
+							
+<!-- Borivali -->						
+						
+						
+						
+						
+						72.856775,19.228955,0,
+							72.857505,19.233285,0,
+							72.857954,19.235671,0,
+							72.858329,19.237383,0,
+							72.858655,19.239210,0,
+							72.859095,19.242213,0,
+							72.859302,19.245387,0,
+							72.859443,19.247710,0,
+							
+						72.859411,19.249932,0,
+							72.859018,19.253692,0,
+							72.858515,19.258232,0,
+							72.857572,19.266359,0,
+							72.856684,19.274506,0,
+							
+						72.856175,19.279789,0,
+							72.855726,19.282754,0,
+							72.855241,19.287115,0,
+							72.854396,19.295153,0,
+							72.853487,19.302752,0,
+							72.852942,19.307244,0,
+<!-- Bhayander -->
+							
+	
+						72.852657,19.311484,0,
+							72.852991,19.316055,0,
+							72.852973,19.318155,0,
+							72.852577,19.321842,0,
+							72.851657,19.329802,0,
+							72.851412,19.331928,0,
+							72.850490,19.340299,0,
+							72.850103,19.343465,0,
+							72.850003,19.343971,0,
+							72.849357,19.346018,0,
+							72.848187,19.348323,0,
+							72.847342,19.349605,0,
+							
+						72.846320,19.351334,0,
+							72.845654,19.352481,0,
+							72.844659,19.354619,0,
+							72.843026,19.358227,0,
+							72.841608,19.361420,0,
+							72.840548,19.363723,0,
+							72.838276,19.368799,0,
+							72.836072,19.373794,0,
+							72.834045,19.378324,0,
+							72.832904,19.380729,0,
+							
+						72.832159,19.382421,0,
+							72.831526,19.383902,0,
+							72.830318,19.386223,0,
+							72.829219,19.388582,0,
+							72.828213,19.391138,0,
+							72.827236,19.393209,0,
+							72.825455,19.396766,0,
+							72.825309,19.397134,0,
+							72.825309,19.397134,0,
+							72.824200,19.399602,0,
+							72.822945,19.402416,0,
+							72.821703,19.405654,0,
+							72.820191,19.410949,0,
+							72.819570,19.414079,0,
+							72.819038,19.417120,0,
+							
+						72.818932,19.417720,0,
+							72.818640,19.419213,0,
+							72.818416,19.420326,0,
+							72.817886,19.423061,0,
+							72.817118,19.426923,0,
+							72.816518,19.430217,0,
+							72.815891,19.433640,0,
+							72.815188,19.437581,0,
+							72.814684,19.440487,0,
+							72.814047,19.443959,0,
+							72.813410,19.447412,0,
+							72.812934,19.450119,0,
+							72.812289,19.453122,0,
+							
+						72.812119,19.455164,0,
+				
+					
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+	
+	<Placemark>
+      <name>Red Line</name>
+      <styleUrl>#RedLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+					72.835507,18.942405,0,
+					 72.835727,18.944200,0,
+					  72.835903,18.945033,0,
+					  72.836474,18.946039,0,
+					  72.837643,18.947527,0,
+						 72.837995,18.947923,0,
+						 72.838162,18.948872,0,
+					
+					 72.838403,18.951949,0,
+						 72.838211,18.953927,0,
+						 72.838117,18.955251,0,
+						 72.838166,18.955834,0,
+						 72.838694,18.957805,0,
+												 72.839585,18.960674,0,
+						 72.839344,18.962626,0,
+						 72.838421,18.964513,0,
+						 72.833843,18.969573,0,
+						 72.832829,18.971791,0,
+						 72.832757,18.973352,0,
+						
+					 72.832801,18.976637,0,
+						 72.832853,18.982248,0,
+						
+					 72.832854,18.986921,0,
+						 72.832838,18.990729,0,
+						
+					 72.832927,18.993944,0,
+		
+						 72.833237,18.999466,0,
+						 72.834138,19.002801,0,
+						 72.834986,19.005036,0,
+						 72.837420,19.008992,0,
+						 72.843431,19.017890,0,
+						 72.847430,19.023418,0,
+						 72.850013,19.027231,0,
+						 72.854264,19.033456,0,
+						 72.858113,19.038999,0,
+						 72.862994,19.046179,0,
+						 72.865776,19.050248,0,
+						 72.870027,19.056270,0,
+						 72.871864,19.058809,0,
+						 72.873949,19.061189,0,
+						 72.879134,19.065126,0,
+						 72.885738,19.070567,0,
+						 72.897379,19.079343,0,
+						 72.900173,19.081412,0,
+						 72.902559,19.082710,0,
+						 72.905193,19.083980,0,
+						 72.908056,19.085530,0,
+						 72.910460,19.087099,0,
+						 72.914390,19.090549,0,
+						 72.921633,19.097945,0,
+						 72.924902,19.101821,0,
+						 72.926167,19.104224,0,
+						 72.927275,19.106896,0,
+						 72.928210,19.111746,0,
+						 72.928309,19.113297,0,
+						 72.928124,19.117579,0,
+						 72.927742,19.124916,0,
+						 72.928051,19.128037,0,
+						 72.928615,19.129854,0,
+						 72.929528,19.131739,0,
+						 72.931087,19.134006,0,
+						 72.934258,19.138156,0,
+						 72.937571,19.142216,0,
+						 72.943923,19.150650,0,
+						 72.946200,19.153742,0,
+						 72.947844,19.156650,0,
+						 72.949630,19.161247,0,
+						 72.951260,19.164632,0,
+						 72.952761,19.167484,0,
+						 72.954695,19.169894,0,
+						 72.956202,19.171611,0,
+						 72.958580,19.174029,0,
+						 72.965737,19.180990,0,
+						 72.968106,19.183026,0,
+						 72.971603,19.184916,0,
+						 72.975636,19.185922,0,
+						 72.979566,19.187302,0,
+						 
+						 	  
+							  
+						  	 72.988009,19.189607,0,	  						   
+						   
+						  72.994234,19.190581,0,
+						  72.997905,19.191093,0,
+						  73.000417,19.191374,0,
+						  73.001531,19.191407,0,
+						  73.003112,19.191330,0,
+						  73.004660,19.191117,0,
+						  73.005451,19.190950,0,
+						  73.006677,19.190631,0,
+						  73.008052,19.190241,0,
+						  73.020185,19.186849,0,
+						  73.022291,19.186233,0,
+						  73.024583,19.185542,0,
+						  73.025940,19.185149,0,
+						  73.027411,19.184735,0,
+						  73.028497,19.184438,0,
+						  73.029201,19.184296,0,
+						  
+						  
+						  73.029784,19.184212,0,
+						  73.030693,19.184170,0,
+						  73.031753,19.184268,0,
+						  73.033246,19.184652,0,
+						  73.035206,19.185496,0,
+						  73.038057,19.186734,0,
+						  73.043671,19.189088,0,
+						  73.047688,19.190978,0,
+						  73.048307,19.191367,0,
+						  73.052791,19.193345,0,
+						  73.055756,19.194686,0,
+						  73.058539,19.196730,0,
+						  73.062207,19.199490,0,
+						  73.066720,19.202902,0,
+						  73.071750,19.206737,0,
+						  73.076695,19.210518,0,
+						   
+						   
+						   73.079337,19.212377,0,
+						   73.081902,19.214337,0,
+						   73.084587,19.216438,0,
+						   73.088072,19.219055,0,
+						   73.089958,19.220507,0,
+						   73.094278,19.223792,0,
+						   73.095893,19.224891,0,
+						   73.096772,19.225405,0,
+						   73.098211,19.226092,0,
+						   73.099833,19.226770,0,
+						   73.106998,19.229064,0,
+						   73.113248,19.231120,0,
+						   73.114649,19.231517,0,
+						   73.116931,19.231956,0,
+						   73.121654,19.232552,0,
+						   73.124656,19.233134,0,
+						   73.127252,19.234048,0,
+						   73.133342,19.236242,0,
+						  
+					
+		</coordinates>
+      </LineString>
+    </Placemark>
+	
+	
+	 <Placemark>
+      <name>Red Line</name>
+      <styleUrl>#RedLine</styleUrl>
+      <LineString>
+         <altitudeMode>relative</altitudeMode>
+        <coordinates>
+						 
+						  	   72.988009,19.189607,0,	  
+						 
+						 
+						 72.989656,19.190327,0,
+						  72.990644,19.190786,0,
+						  72.991507,19.191303,0,
+						  72.992369,19.191888,0,
+						  72.993280,19.192558,0,
+						  72.994037,19.193173,0,
+						  72.994799,19.193779,0,
+						  72.995320,19.194191,0,
+						  72.997140,19.195611,0,
+						  72.998027,19.196299,0,
+						  72.998684,19.196936,0,
+						  72.999289,19.197454,0,
+						  73.000258,19.198228,0,
+						  73.001930,19.199587,0,
+						  73.003600,19.200917,0,
+						  73.005677,19.202620,0,
+						  73.007496,19.204125,0,
+						  73.007991,19.204496,0,
+						  73.008993,19.205108,0,
+						  73.009898,19.205585,0,
+						  73.010533,19.205873,0,
+						  73.011488,19.206177,0,
+						  73.012308,19.206332,0,
+						  73.013292,19.206402,0,
+						  73.014057,19.206381,0,
+						  73.014740,19.206303,0,
+						  73.015595,19.206107,0,
+						  73.016756,19.205673,0,
+						  73.017528,19.205231,0,
+						  73.018273,19.204713,0,
+						  73.019044,19.203996,0,
+						  73.019907,19.202947,0,
+						  73.021063,19.201515,0,
+						  73.022079,19.200187,0,
+						  73.022566,19.199158,0,
+						  73.023038,19.197250,0,
+						  73.023109,19.196219,0,
+						  73.023112,19.195467,0,
+						  73.023100,19.194134,0,
+						  73.023057,19.192628,0,
+								 73.023068,19.190404,0,
+						
+						  73.023319,19.189390,0,
+						  73.023599,19.188571,0,
+						  73.023956,19.187981,0,
+						  73.024225,19.187580,0,
+						  73.025214,19.186587,0,
+						  73.025842,19.186060,0,
+						     73.026675,19.185353,0,
+							 
+							  73.029201,19.184296,0,
+						
+		</coordinates>
+      </LineString>
+    </Placemark>
+
+	
+	<Placemark>
+		<name>Churchgate Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+		
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.827526,18.934204,0
+					  72.827197,18.934157,0,
+					  72.826900,18.935485,0,
+					  72.826840,18.936343, 0,
+					  72.826949,18.936348,0
+					  72.826949,18.936468,0,
+					  72.827264,18.936485,0,
+					  72.827291,18.936107,0,
+					  72.827156,18.936079,0,
+					  72.827261,18.935524,0,
+					  72.827526,18.934204,0
+				
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Marine Lines Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>2</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.824359,18.945081,0,
+					 72.824123,18.945014,0,
+					 72.823346,18.946182,0,
+					 72.823550,18.946274,0,
+					 72.824359,18.945081,0,
+					
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+		<name>Charni Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>3</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.819249,18.950967,0,
+					 72.819415,18.951117,0,
+					 72.818541,18.951804,0,
+					 72.818352,18.951634,0,
+					 72.819249,18.950967,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Grant Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>4</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.815997,18.962656,0,
+					 72.815762,18.962803,0,
+					 72.816457,18.964471,0,
+					 72.816740,18.964460,0,
+					 72.815997,18.962656,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Mumbai Central Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>5</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.819013,18.969882,0,
+					 72.819702,18.969832,0,
+					 72.820152,18.973886,0,
+					 72.819750,18.973416,0,
+					 72.819013,18.969882,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Mahalaxmi Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>6</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.823219,18.981192,0,
+					  72.823327,18.981149,0,
+					  72.824760,18.983200,0,
+					  72.824680,18.983247,0,
+					  72.823219,18.981192,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Lower Parel Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.829302,18.994142,0,
+						72.829799,18.994606,0,
+						72.830716,18.996626,0,
+						72.830278,18.996385,0,
+						72.829302,18.994142,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+		<name>Elphinstone Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>8</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.835164,19.006410,0,
+						72.835278,19.006386,0,
+						72.836436,19.008300,0,
+						72.836312,19.008342,0,
+						72.835164,19.006410,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Dadar Western Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+		 <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+			<tessellate>9</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.842551,19.018201,0,
+					 72.842286,19.018342,0,
+					 72.843055,19.019562,0,
+					 72.843445,19.019344,0,
+					 72.842551,19.018201,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Matunga Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>10</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.846957,19.027962,0,
+						72.846618,19.027998,0,
+						72.846964,19.029159,0,
+						72.847266,19.029115,0,
+						72.846957,19.027962,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Mahim Junction Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>11</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.847416,19.040107,0,
+						72.847019,19.040046,0,
+						72.846479,19.041239,0,
+						72.846758,19.041373,0,
+						72.847416,19.040107,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Bandra Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+		 <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+			<tessellate>12</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.841050,19.054307,0,
+						72.840690,19.054178,0,
+						72.840241,19.055303,0,
+						72.840590,19.055401,0,
+						72.841050,19.054307,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Khar Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>13</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.840392,19.069477,0,
+						72.840019,19.069502,0,
+						72.840197,19.070243,0,
+						72.840479,19.070238,0,
+						72.840392,19.069477,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Santacruz Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>14</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.841920,19.081931,0,
+						72.841552,19.081976,0,
+						72.841669,19.082940,0,
+						72.842013,19.082904,0,
+						72.841920,19.081931,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Vile Parle Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>15</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.844040,19.098789,0,
+						72.843653,19.098923,0,
+						72.843789,19.100020,0,
+						72.844237,19.099923,0,
+						72.844040,19.098789,0,						
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Andheri Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+		 <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+			<tessellate>16</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.846717,19.117045,0,
+						72.846266,19.117020,0,
+						72.846676,19.119204,0,
+						72.847108,19.119056,0,
+						72.846717,19.117045,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Jogeshwari Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>17</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.848885,19.135368,0,
+						72.848611,19.135439,0,
+						72.848884,19.137176,0,
+						72.849205,19.137431,0,
+						72.848885,19.135368,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Goregaon Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>18</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.849765,19.163687,0,
+						72.849251,19.163619,0,
+						72.849452,19.165025,0,
+						72.849815,19.164897,0,
+						72.849765,19.163687,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Malad Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>19</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.848908,19.186113,0,
+						72.848686,19.186169,0,
+						72.848806,19.187254,0,
+						72.849058,19.187209,0,
+						72.848908,19.186113,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Kandivli Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>20</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.852072,19.204101,0,
+						72.851778,19.204144,0,
+						72.851978,19.205269,0,
+						72.852230,19.205235,0,
+						72.852072,19.204101,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Borivali Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>21</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.856840,19.227638,0,
+						72.856353,19.227765,0,
+						72.856940,19.230312,0,
+						72.857409,19.230158,0,
+						72.856840,19.227638,0,	
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Dahisar Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>22</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.859535,19.248939,0,
+						72.859243,19.248964,0,
+						72.859208,19.250853,0,
+						72.859441,19.250932,0,
+						72.859535,19.248939,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Mira Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>23</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.856250,19.279456,0,
+						72.856043,19.279353,0,
+						72.855794,19.281342,0,
+						72.856106,19.281356,0,
+						72.856250,19.279456,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Bhayander Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>24</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.852933,19.310182,0,
+						72.852538,19.310159,0,
+						72.852452,19.311950,0,
+						72.852855,19.312134,0,
+						72.852933,19.310182,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Naigoan Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>25</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.846832,19.350806,0,
+						72.846523,19.350772,0,
+						72.845949,19.351814,0,
+						72.846217,19.351883,0,
+						72.846832,19.350806,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Vasai Road Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>24</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.833433,19.380117,0,
+						72.833016,19.379927,0,
+						72.831950,19.382455,0,
+						72.832271,19.382575,0,
+						72.833433,19.380117,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Nalasopara Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>25</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.819188,19.417056,0,
+						72.818928,19.417023,0,
+						72.818615,19.418496,0,
+						72.818893,19.418502,0,
+						72.819188,19.417056,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Virar Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>26</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.812247,19.454999,0,
+						72.811910,19.454890,0,
+						72.811780,19.455853,0,
+						72.812011,19.455948,0,
+						72.812247,19.454999,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+		<name>CST Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.835008,18.940417,0,
+						72.836439,18.940728,0,
+						72.836690,18.942852,0,
+						72.834850,18.942985,0,
+						72.835008,18.940417,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Masjid Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.838125,18.950961,0,
+						72.838442,18.951022,0,
+						72.838407,18.952704,0,
+						72.838064,18.952674,0,
+						72.838125,18.950961,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Sandhurst Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						72.839652,18.960656,0,
+						72.839437,18.960770,0,
+						72.839395,18.961782,0,
+						72.839894,18.961215,0,
+						72.839652,18.960656,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Byculla Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.832941,18.976039,0,
+					  72.832467,18.976181,0,
+					  72.832475,18.977119,0,
+					  72.832913,18.977012,0,
+					  72.832941,18.976039,0,					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Chinchpokli Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.832712,18.986346,0,
+					  72.832817,18.986446,0,
+					  72.832844,18.988290,0,
+					  72.832712,18.988210,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Currey Road Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.833092,18.993842,0,
+					  72.832743,18.993781,0,
+					  72.832769,18.995044,0,
+					  72.833081,18.994883,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+		<name>Parel Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.836992,19.008169,0,
+					  72.836773,19.008288,0,
+					  72.838318,19.010539,0,
+					  72.838601,19.010429,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Dadar Central Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.841696,19.014932,0,
+					  72.841820,19.016027,0,
+					  72.844360,19.019265,0,
+					  72.844555,19.018729,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Matunga Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.849793,19.026340,0,
+					 72.849462,19.026549,0,
+					 72.850916,19.028613,0,
+					 72.851259,19.028395,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	<Placemark>
+		<name>Sion Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.863486,19.046510,0,
+					 72.863188,19.046748,0,
+					 72.864549,19.048692,0,
+					 72.864464,19.047922,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	
+	
+	<Placemark>
+		<name>Kurla Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.877838,19.064029,0,
+					  72.877870,19.064445,0,
+					 72.880002,19.066151,0,
+					 72.880315,19.065813,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Vidhyavihar Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.896460,19.078857,0,
+					  72.896767,19.078855,0,
+					  72.898613,19.080214,0,
+					  72.898513,19.080418,0,
+					 
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Ghatkopar Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 
+					  72.906554,19.084815,0,
+					  72.906970,19.084735,0,
+					  72.909642,19.086416,0,
+					  72.909394,19.086630,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Vikhroli Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.927936,19.110699,0,
+					  72.928328,19.110693,0,
+					  72.928504,19.113032,0,
+					  72.928145,19.113114,0,
+					 
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Kanjurmarg Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.927783,19.127176,0,
+					 72.927992,19.127195,0,
+					 72.928684,19.129846,0,
+					 72.928399,19.129846,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Bhandup Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.936453,19.141092,0,
+					  72.936886,19.141204,0,
+					  72.938646,19.143548,0,
+					  72.938643,19.144121,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Nahur Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.945929,19.153704,0,
+					 72.946148,19.153621,0,
+					 72.947440,19.155814,0,
+					 72.947200,19.155855,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Mulund Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.955622,19.171230,0,
+					 72.955769,19.171029,0,
+					 72.957659,19.172953,0,
+					 72.957439,19.173122,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Thane Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  72.971656,19.184663,0,
+					  72.971973,19.185258,0,
+					  72.977912,19.186964,0,
+					  72.978013,19.186485,0,
+					 
+					 
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Kalwa Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 72.996791,19.194964,0,
+					 72.996556,19.196609,0,
+					 72.998885,19.198623,0,
+					 72.998704,19.197307,0,
+					 72.998404,19.196301,0,
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Mumbra Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 73.023270,19.190443,0,
+					 73.022971,19.190356,0,
+					 73.023087,19.189748,0,
+					 73.023264,19.189194,0,
+					 73.023383,19.188894,0,
+					 73.023609,19.189160,0,
+					 73.023356,19.189772,0,
+					 73.023282,19.190228,0,
+					 73.023258,19.190514,0,
+					
+
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Diva Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 73.040908,19.188276,0,
+					 73.041219,19.187680,0,
+					 73.043412,19.188635,0,
+					 73.045221,19.189517,0,
+					 73.044919,19.190026,0,
+					 73.042593,19.189103,0,
+								
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Kopar Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 73.076295,19.210445,0,
+					 73.076546,19.210169,0,
+					 73.077565,19.210938,0,
+					 73.079145,19.212096,0,
+					 73.078936,19.212308,0,
+					 73.077774,19.211487,0,
+					 73.077111,19.211025,0,
+					 73.076773,19.210744,0,
+					
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	<Placemark>
+		<name>Dombivli Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						 73.084841,19.216843,0,
+						 73.084870,19.216437,0,
+						 73.086015,19.217250,0,
+						 73.086959,19.217818,0,
+						 73.087709,19.218432,0,
+						 73.088831,19.219411,0,
+						 73.088572,19.219606,0,
+						 73.087636,19.219122,0,
+						 73.086974,19.218715,0,
+						 73.086160,19.218046,0,
+						 73.085546,19.217539,0,
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Thakurli Railway Station</name>
+		<styleUrl>#transYellowPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					  73.096652,19.225544,0,
+					  73.096740,19.225255,0,
+					  73.097615,19.225659,0,
+					  73.098168,19.225977,0,
+					  73.098794,19.226237,0,
+					  73.099321,19.226409,0,
+					  73.099188,19.226682,0,
+					  73.098477,19.226469,0,
+					  73.097895,19.226228,0,
+					  73.097437,19.225973,0,
+					 
+					 
+					 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	<Placemark>
+		<name>Kalyan Railway Station</name>
+		<styleUrl>#transGreenPoly</styleUrl>
+		<Polygon>
+			<tessellate>7</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+					 73.126106,19.234034,0,
+					 73.127346,19.233808,0,
+					 73.131061,19.234869,0,
+					 73.132650,19.235546,0,
+					 73.133815,19.236130,0,
+					 73.133422,19.236621,0,
+					 73.131047,19.235966,0,
+					 73.130249,19.235778,0,
+					 73.128935,19.235176,0,
+ 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	
+	
+	
+	</Document>
+</kml>
